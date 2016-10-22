@@ -1,4 +1,7 @@
 # learn-gulp
+###使用对象：
+gulp入门
+会node
 ###使用node安装下面的库
 
 node install gulp gulp-uglify gulp-minify-css gulp-imagemin
