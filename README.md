@@ -1,7 +1,8 @@
 # learn-gulp
-使用node安装下面的库
-node install gulp gulp-uglify gulp-minify-css gulp-imagemin
+###使用node安装下面的库
 
+node install gulp gulp-uglify gulp-minify-css gulp-imagemin
+```js
 //引入库
 var gulp = require('gulp'),
 	uglify = require('gulp-uglify'),
@@ -35,3 +36,4 @@ gulp.task('js', function () {
 
 //默认执行的任务
 gulp.task('default', ['js','css','images']);
+```
